@@ -1,0 +1,17 @@
+
+.menubar-container {
+  width:100%;
+  background:#eee;
+  z-index: 2;
+}
+.menubar-container .visible {
+  visibility: visible;
+}
+.menubar {
+  visibility: hidden;
+  width:100%;
+  position:fixed;
+  top:0;
+  transition:all 300ms;
+  text-align:center;
+}

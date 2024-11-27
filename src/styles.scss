@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+@import "primeflex/primeflex.css";
+
+
+@import "primeicons/primeicons.css";
+
+
+/* Order */
+@layer reset, primeng;
+
+/* Reset CSS */
+@layer reset {
+    button,
+    input {
+        /* CSS to Reset */
+    }
+}
+
+body {
+    margin: 0;
+    padding: 8;
+}
+
+.page-content-container {
+    background-color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+/* .page-container {
+    padding-top: 60px;
+    background-color: #00ffff;
+} */
+
+/* router-outlet + * {
+    padding-top: 60px;
+    background-color: #00ffff;
+  } */

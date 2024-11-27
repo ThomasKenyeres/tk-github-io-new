@@ -1,0 +1,22 @@
+.home-top-banner {
+  height: 100vh;
+  background-color: antiquewhite;
+}
+
+.home-top-banner-content {
+    height: 85vh;
+    background-color: beige;
+}
+
+.home-top-banner div {
+    padding: 20px;
+}
+
+.animate-opacity {
+  animation: opac 0.8s;
+}
+
+#scrolldown-angle {
+    //z-index: 0;
+    //position: absolute;
+}

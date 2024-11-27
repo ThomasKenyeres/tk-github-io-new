@@ -1,0 +1,5 @@
+<div class="menubar-container">
+    <div [ngClass]="{'menubar': true, 'visible': shouldBeVisible}">
+        <p-tabMenu [model]="items" (click)="checkMenu()"></p-tabMenu>
+    </div>
+</div>
